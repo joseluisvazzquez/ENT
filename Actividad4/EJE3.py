@@ -4,3 +4,5 @@ if A > B:
     print(A, "Es mayor que", B)
 else: 
     print(B, "Es mayor que", A)
+if A == B:
+    print("Los dos numeros son iguales")

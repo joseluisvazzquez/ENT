@@ -1,8 +1,15 @@
-A = int(input("Escribeme el primer numero\n -->"))
-B = int(input("Escribeme el segundo numero\n -->"))
-C = int(input("Escribeme el tercer numero\n -->"))
+A = int(input("Escribeme el primer numero\n --> "))
+B = int(input("Escribeme el segundo numero\n --> "))
+C = int(input("Escribeme el tercer numero\n --> "))
 
 msj  = str("El numero mas granade es: ")
+
+while A == B or A == C or B == C:
+    print("los numeros no deben ser iguales porfavor escriba numeros diferentes")
+    A = int(input("Escribeme el primer numero\n --> "))
+    B = int(input("Escribeme el segundo numero\n --> "))
+    C = int(input("Escribeme el tercer numero\n --> "))
+
 
 if A>B and A>C:
     print(msj, A)
