@@ -1,5 +1,5 @@
-a = int(input("Escribeme un numero: \n --->"))
-b = int(input("Escribeme otro numero: \n --->"))
+a = float(input("Escribeme un numero: \n --->"))
+b = float(input("Escribeme otro numero: \n --->"))
 if a > b :
     print(f"{a}/{b}", a/b)
 else:

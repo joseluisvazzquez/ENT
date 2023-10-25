@@ -1,6 +1,6 @@
 d = int(input("Introduceme el dia deseado:\n --->"))
 m = int(input("Introduceme el mes deseado:\n --->"))
-thislist = ["null","Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"]
+meses = ["null","Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"]
 
 while d > 31 or d <= 0 and m > 12 or m <= 0:
     print("Formato erroneo, porfavor vuelva a introducir el dia  el mes... ")
@@ -9,4 +9,4 @@ while d > 31 or d <= 0 and m > 12 or m <= 0:
     if d <= 31 or d > 0 and m <= 12 or m > 0:
         break
 
-print(d, "de ", thislist[m])
+print(d, "de", meses[m])
