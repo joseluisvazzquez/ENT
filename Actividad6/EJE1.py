@@ -1,0 +1,7 @@
+n = str(input("Nombre del alumno: \n ----->"))
+ap1 = str(input("Primer Apellido del alumno: \n ----->"))
+ap2 = str(input("Segund Apellido alumno: \n ----->"))
+g = str(input("Grado en el que esta: \n ----->"))
+c = str(input("Color preferido: \n ----->"))
+p = str(input("Pelicula preferida: \n ----->"))
+print(f"El sñr. {n} {ap1} {ap2}, estudia el {g}, su color preferido es el {c} y su pelicula favorita es {p}")
