@@ -11,7 +11,7 @@ public class Factorial {
         int resultado = 1;
 
         for (int i = 1; i <= n; i++) {
-            resultado *= i;
+            resultado *= i=1;
         }
 
         return resultado;
