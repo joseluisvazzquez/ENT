@@ -1,0 +1,131 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "gradle",
+			"id": "c:\\Users\\yyy\\Documents\\CFGS\\ENT\\TESTSapp:buildapp",
+			"script": "app:build",
+			"description": "Assembles and tests this project.",
+			"group": "build",
+			"project": "app",
+			"buildFile": "C:\\Users\\yyy\\Documents\\CFGS\\ENT\\TESTS\\app\\build.gradle",
+			"rootProject": "TESTS",
+			"projectFolder": "c:\\Users\\yyy\\Documents\\CFGS\\ENT\\TESTS",
+			"workspaceFolder": "c:\\Users\\yyy\\Documents\\CFGS\\ENT\\TESTS",
+			"args": "",
+			"javaDebug": false,
+			"problemMatcher": [
+				"$gradle"
+			],
+			"label": "gradle: app:build"
+		},
+		{
+			"type": "gradle",
+			"id": "c:\\Users\\yyy\\Documents\\CFGS\\ENT\\TESTSapp:cleanapp",
+			"script": "app:clean",
+			"description": "Deletes the build directory.",
+			"group": "build",
+			"project": "app",
+			"buildFile": "C:\\Users\\yyy\\Documents\\CFGS\\ENT\\TESTS\\app\\build.gradle",
+			"rootProject": "TESTS",
+			"projectFolder": "c:\\Users\\yyy\\Documents\\CFGS\\ENT\\TESTS",
+			"workspaceFolder": "c:\\Users\\yyy\\Documents\\CFGS\\ENT\\TESTS",
+			"args": "",
+			"javaDebug": false,
+			"problemMatcher": [
+				"$gradle"
+			],
+			"label": "gradle: app:clean"
+		},
+		{
+			"type": "gradle",
+			"id": "c:\\Users\\yyy\\Documents\\CFGS\\ENT\\TESTSapp:runapp",
+			"script": "app:run",
+			"description": "Runs this project as a JVM application",
+			"group": "application",
+			"project": "app",
+			"buildFile": "C:\\Users\\yyy\\Documents\\CFGS\\ENT\\TESTS\\app\\build.gradle",
+			"rootProject": "TESTS",
+			"projectFolder": "c:\\Users\\yyy\\Documents\\CFGS\\ENT\\TESTS",
+			"workspaceFolder": "c:\\Users\\yyy\\Documents\\CFGS\\ENT\\TESTS",
+			"args": "",
+			"javaDebug": false,
+			"problemMatcher": [
+				"$gradle"
+			],
+			"label": "gradle: app:run"
+		},
+		{
+			"type": "gradle",
+			"id": "c:\\Users\\yyy\\Documents\\CFGS\\ENT\\TESTSapp:jarapp",
+			"script": "app:jar",
+			"description": "Assembles a jar archive containing the main classes.",
+			"group": "build",
+			"project": "app",
+			"buildFile": "C:\\Users\\yyy\\Documents\\CFGS\\ENT\\TESTS\\app\\build.gradle",
+			"rootProject": "TESTS",
+			"projectFolder": "c:\\Users\\yyy\\Documents\\CFGS\\ENT\\TESTS",
+			"workspaceFolder": "c:\\Users\\yyy\\Documents\\CFGS\\ENT\\TESTS",
+			"args": "",
+			"javaDebug": false,
+			"problemMatcher": [
+				"$gradle"
+			],
+			"label": "gradle: app:jar"
+		},
+		{
+			"type": "gradle",
+			"id": "c:\\Users\\yyy\\Documents\\CFGS\\ENT\\TESTSapp:testapp",
+			"script": "app:test",
+			"description": "Runs the test suite.",
+			"group": "verification",
+			"project": "app",
+			"buildFile": "C:\\Users\\yyy\\Documents\\CFGS\\ENT\\TESTS\\app\\build.gradle",
+			"rootProject": "TESTS",
+			"projectFolder": "c:\\Users\\yyy\\Documents\\CFGS\\ENT\\TESTS",
+			"workspaceFolder": "c:\\Users\\yyy\\Documents\\CFGS\\ENT\\TESTS",
+			"args": "",
+			"javaDebug": false,
+			"problemMatcher": [
+				"$gradle"
+			],
+			"label": "gradle: app:test"
+		},
+		{
+			"type": "gradle",
+			"id": "c:\\Users\\yyy\\Documents\\CFGS\\ENT\\TESTSapp:classesapp",
+			"script": "app:classes",
+			"description": "Assembles main classes.",
+			"group": "build",
+			"project": "app",
+			"buildFile": "C:\\Users\\yyy\\Documents\\CFGS\\ENT\\TESTS\\app\\build.gradle",
+			"rootProject": "TESTS",
+			"projectFolder": "c:\\Users\\yyy\\Documents\\CFGS\\ENT\\TESTS",
+			"workspaceFolder": "c:\\Users\\yyy\\Documents\\CFGS\\ENT\\TESTS",
+			"args": "",
+			"javaDebug": false,
+			"problemMatcher": [
+				"$gradle"
+			],
+			"label": "gradle: app:classes"
+		},
+		{
+			"type": "gradle",
+			"id": "c:\\Users\\yyy\\Documents\\CFGS\\ENT\\TESTSapp:testClassesapp",
+			"script": "app:testClasses",
+			"description": "Assembles test classes.",
+			"group": "build",
+			"project": "app",
+			"buildFile": "C:\\Users\\yyy\\Documents\\CFGS\\ENT\\TESTS\\app\\build.gradle",
+			"rootProject": "TESTS",
+			"projectFolder": "c:\\Users\\yyy\\Documents\\CFGS\\ENT\\TESTS",
+			"workspaceFolder": "c:\\Users\\yyy\\Documents\\CFGS\\ENT\\TESTS",
+			"args": "",
+			"javaDebug": false,
+			"problemMatcher": [
+				"$gradle"
+			],
+			"label": "gradle: app:testClasses"
+		}
+	]
+}
